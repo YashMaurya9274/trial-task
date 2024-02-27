@@ -9,8 +9,6 @@ import BackgroundImage from "./BackgroundImage";
 const RootRouter = () => {
   const user = useSelector(selectUser);
 
-  console.log(user);
-
   return (
     <BrowserRouter>
       <Routes>

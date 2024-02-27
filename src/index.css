@@ -10,7 +10,7 @@
   }
 
   .container {
-    @apply flex flex-col lg:flex-row w-full z-20 lg:w-3/5 mx-auto rounded-3xl lg:my-10 lg:justify-between;
+    @apply flex flex-col justify-between lg:flex-row w-full z-20 lg:w-3/5 mx-auto rounded-3xl lg:my-10 lg:justify-between;
   }
 
   .left_container {
