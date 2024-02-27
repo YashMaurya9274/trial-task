@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button {
+    @apply w-full py-3 rounded-lg text-sm font-medium tracking-wide hover:opacity-75;
+  }
+
+  .container {
+    @apply flex flex-col lg:flex-row w-full z-20 lg:w-3/5 mx-auto rounded-3xl lg:my-10 lg:justify-between;
+  }
+
+  .left_container {
+    @apply w-full mt-[60px] lg:mt-0 lg:w-1/2 bg-white rounded-tl-3xl rounded-tr-3xl lg:rounded-tr-none lg:rounded-bl-3xl lg:px-7 pb-3 lg:pb-7;
+  }
+
+  .button_container {
+    @apply mt-6 flex flex-col gap-4;
+  }
+
+  .social_icons_container {
+    @apply flex mt-7 justify-center gap-2 items-center;
+  }
+
+  .sign_in_options_text {
+    @apply text-gray-500 font-semibold text-sm ml-2;
+  }
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
