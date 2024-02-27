@@ -28,8 +28,6 @@ const Login = () => {
         email,
       })
     );
-
-    console.log(email, password);
   };
 
   return (
